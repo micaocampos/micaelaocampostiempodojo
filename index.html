@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <div class="encabezado">
+        <h1>DojoWeather</h1>
+        <div class="opciones">
+            <h3 id="ciudad">Burbank</h3>
+            <h3 id="ciudad2">Chicago</h3>
+            <h3 id="ciudad3">Dalas</h3>
+        </div>
+    </div>
+</head>
+
+<body>
+    <div class="alerta" id="alerta">
+        <img src="assets/cookie.png" alt="informacion" class="iconos">
+        <p><b>Stop! Cookie time</b><br> We use cookies(sadly not the edible ones)
+            to personalize content and ads, to provide social media features and
+            to analyse our traffic.<a href="#"><b>Read more...</b></a>
+        </p>
+        <button class="btn" id="aceptar"> I accept</button>
+    </div>
+    <div class="nav">
+        <h2>San Jose</h2>
+        <div class="opciones">
+            <h4>show temperature in</h4>
+            <select id="farenheit" name="grados">
+                <option>°C</option>
+                <option>°F</option>
+            </select>
+        </div>
+
+    </div>
+    <div class="principal">
+
+        <div class="columnas">
+            <h3>Today</h3>
+            <img src="assets/some_rain.png" alt="nube con lluvia" class="iconos"></ima>
+            <h4>some rain</h4>
+            <h5 id="t1"><span style="color: red;">24°</span></h5>
+            <h5 id="t2"><span style="color: rgb(42, 129, 227);">18°</span></h5>
+
+        </div>
+        <div class="columnas">
+            <h3>Tomorrow</h3>
+            <img src="assets/some_sun.png" alt="sol" class="iconos"></ima>
+            <h4>some sun</h4>
+            <h5 id="t3"><span style="color: red;">27°</span></h5>
+            <h5 id="t4"><span style="color: rgb(42, 129, 227);">19°</span></h5>
+
+
+        </div>
+        <div class="columnas">
+            <h3>Friday</h3>
+            <img src="assets/some_clouds.png" alt="nube " class="iconos"></ima>
+            <h4>some clouds</h4>
+
+            <h5 id="t5"><span style="color: red;">21°</span></h5>
+            <h5 id="t6"> <span style="color: rgb(42, 129, 227);">16°</span></h5>
+
+
+        </div>
+        <div class="columnas">
+            <h3>Saturday</h3>
+            <img src="assets/some_sun.png" alt="sol" class="iconos"></ima>
+            <h4>some soun</h4>
+            <h5 id="t7"><span style="color: red;">26°</span></h5>
+            <h5 id="t8"> <span style="color: rgb(42, 129, 227);">21°</span></h5 </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
